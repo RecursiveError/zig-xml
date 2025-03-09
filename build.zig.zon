@@ -8,8 +8,8 @@
 
     .dependencies = .{
         .zig_tracer = .{
-            .url = "../zig-tracer/",
-            .hash = "zig_tracer-0.0.0-oVQQrNMpAABKiqtNXi33ooUt1VUNMIiMTIXWo5e0lKUH",
+            .url = "git+https://github.com/RecursiveError/zig-tracer#2e6119fc28cd1790ce7432d7f34a367344ff4e5f",
+            .hash = "zig_tracer-0.0.0-oVQQrMApAAB9hYNP9dFH6k-_iGGYBe-mIhixG5Dr4vTL",
         },
     },
 
