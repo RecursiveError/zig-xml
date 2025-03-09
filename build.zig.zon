@@ -3,10 +3,15 @@
 
     .version = "0.0.0",
 
-    .fingerprint = 0x8c46bb511bf665eb, 
+    .fingerprint = 0x8c46bb511bf665eb,
     .minimum_zig_version = "0.14.0",
 
-    .dependencies = .{},
+    .dependencies = .{
+        .zig_tracer = .{
+            .url = "../zig-tracer/",
+            .hash = "zig_tracer-0.0.0-oVQQrNMpAABKiqtNXi33ooUt1VUNMIiMTIXWo5e0lKUH",
+        },
+    },
 
     .paths = .{
         "build.zig",
